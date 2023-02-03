@@ -49,6 +49,9 @@ return require('packer').startup(function(use)
 	-- go
 	use 'fatih/vim-go'
 
+	-- git
+	use 'lewis6991/gitsigns.nvim'
+
 	-- vimwiki
 	use 'vimwiki/vimwiki'
 end)
