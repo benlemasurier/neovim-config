@@ -20,9 +20,7 @@ vim.opt.sidescrolloff = 15	-- minimum columns to keep left/right of cursor
 
 -- lines
 vim.opt.number = true		-- show line numbers
---vim.opt.relativenumber = true	-- show relative line numbers
 vim.opt.wrap = false		-- don't wrap lines
---vim.opt.colorcolumn = "80"	-- display 80 char column
 
 -- tabs
 vim.opt.softtabstop = 4
