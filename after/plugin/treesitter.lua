@@ -1,5 +1,5 @@
 require('nvim-treesitter.configs').setup {
-  ensure_installed = { 'c', 'lua', 'vim', 'help', 'go' },
+  ensure_installed = { 'c', 'lua', 'vim', 'help', 'go', 'diff', 'git_rebase', 'gitcommit' },
   sync_install = false,
 
   -- automatically install missing parsers
