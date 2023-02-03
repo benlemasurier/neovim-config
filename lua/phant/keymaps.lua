@@ -4,9 +4,6 @@ vim.g.mapleader = ","
 -- quickly open netrw
 vim.keymap.set('n', '<leader>x', vim.cmd.Ex)
 
---
--- visual mode
-
 -- move selected lines up/down
 vim.keymap.set('v', 'J', ":m '>+1<CR>gv=gv")
 vim.keymap.set('v', 'K', ":m '<-2<CR>gv=gv")
