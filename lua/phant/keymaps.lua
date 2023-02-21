@@ -21,7 +21,7 @@ vim.keymap.set('n', '<C-n>', ':cnext<CR>zz')
 vim.keymap.set('n', '<C-p>', ':cprev<CR>zz')
 vim.keymap.set('n', '<leader>n', ':lnext<CR>zz')
 vim.keymap.set('n', '<leader>p', ':lprev<CR>zz')
-vim.keymap.set('n', '<leader>s', ':cclose<CR>:lclose<CR>')
+vim.keymap.set('n', '<leader>c', ':cclose<CR>:lclose<CR>')
 
 -- append next line, leaving cursor in place
 vim.keymap.set("n", "J", "mzJ`z")

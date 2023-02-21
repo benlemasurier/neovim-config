@@ -46,8 +46,15 @@ return require('packer').startup(function(use)
 	-- floating terminal
 	use 'voldikss/vim-floaterm'
 
+	-- dap
+	use 'mfussenegger/nvim-dap'
+	use { "rcarriga/nvim-dap-ui", requires = {"mfussenegger/nvim-dap"} }
+	use 'theHamsta/nvim-dap-virtual-text'
+
 	-- go
-	use 'fatih/vim-go'
+	--use 'fatih/vim-go'
+	use 'ray-x/go.nvim'
+	use 'ray-x/guihua.lua' -- floating window support
 
 	-- git
 	use 'lewis6991/gitsigns.nvim'
