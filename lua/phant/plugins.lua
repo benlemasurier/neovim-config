@@ -59,6 +59,9 @@ return require('packer').startup(function(use)
 	-- git
 	use 'lewis6991/gitsigns.nvim'
 
+	-- python
+	use 'psf/black'
+
 	-- vimwiki
 	use 'vimwiki/vimwiki'
 end)
